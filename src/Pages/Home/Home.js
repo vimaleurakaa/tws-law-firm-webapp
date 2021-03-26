@@ -1,15 +1,12 @@
 import React from "react";
-import { Input } from "antd";
 
-const { Search } = Input;
+import "./Home.scss";
+import Navbar from "../../Components/Navbar/index";
 
 const Home = () => {
-  const onSearch = (value) => console.log(value);
-
   return (
     <>
-      <Search placeholder="input search text" onSearch={onSearch} enterButton />
-      <div>Home Component!</div>
+      <Navbar />
     </>
   );
 };
