@@ -1,0 +1,34 @@
+#willsType {
+  & > * {
+    cursor: pointer;
+  }
+  .card-bg {
+    color: #fff;
+    background-image: url("../../assets/Card_Bg.png");
+    background-size: cover;
+    background-position: center;
+
+    & h4 {
+      color: #fff;
+      font-family: inherit;
+      font-weight: 600;
+    }
+
+    & p {
+      font-size: 16px;
+      font-weight: 500;
+    }
+  }
+}
+
+#willsCategory {
+  & .card-list {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
+  & .back-btn {
+    color: #fff;
+    background-color: #007cba;
+  }
+}

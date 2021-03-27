@@ -1,0 +1,10 @@
+.banner-img {
+  height: 500px;
+  object-fit: cover;
+}
+
+@media (max-width: 767px) {
+  .banner-img {
+    height: auto;
+  }
+}

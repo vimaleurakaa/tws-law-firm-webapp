@@ -1,15 +1,18 @@
 import React from "react";
-import { Input } from "antd";
-
-const { Search } = Input;
+import Navbar from "../../components/Navbar/index";
+import Banner from "../../components/Banner/Banner";
+import Card from "../../components/Wills/index";
+import Footer from "../../components/Footer/Footer";
+import Form from "../../components/EnquiryForm/EnquiryForm";
 
 const Home = () => {
-  const onSearch = (value) => console.log(value);
-
   return (
     <>
-      <Search placeholder="input search text" onSearch={onSearch} enterButton />
-      <div>Home Component!</div>
+      <Navbar />
+      <Banner />
+      <Card />
+      <Footer />
+      <Form />
     </>
   );
 };
